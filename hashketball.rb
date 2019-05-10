@@ -196,6 +196,7 @@ def big_shoe_rebounds(player_name)
       end
     end
   end
+  return rebound_count
 end
 
 
