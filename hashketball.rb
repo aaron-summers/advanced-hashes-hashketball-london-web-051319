@@ -189,7 +189,7 @@ end
 def big_shoe_rebounds(player_name)
   game_hash.values.each do |data|
     data[:players].each do |name|
-      if 
+      if players
 end
 
 
