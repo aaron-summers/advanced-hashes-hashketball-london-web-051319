@@ -186,7 +186,7 @@ def player_stats(name)
   end
 end
 
-def big_shoe_rebounds(player_name)
+def big_shoe_rebounds
   shoe_count = 0
   rebound_count = 0
   game_hash.values.each do |data|
