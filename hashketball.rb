@@ -175,7 +175,7 @@ def player_numbers(team_name)
 end
 
 def player_stats(name)
-  new_hash = {}
+  #new_hash = {}
   
   game_hash.each do |location, data|
     data[:players].each do |player_name, value|
