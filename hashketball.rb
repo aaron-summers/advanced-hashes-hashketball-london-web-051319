@@ -194,7 +194,6 @@ def big_shoe_rebounds
         max = value if value[:shoe] > max[:shoe]
       end
     end
-  end
     max[:stats][:rebounds]
 end
 
