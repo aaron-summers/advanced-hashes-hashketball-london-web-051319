@@ -174,6 +174,10 @@ def player_numbers(team_name)
   number_array
 end
 
+def player_stats(name)
+  
+end
+
 
 
 
