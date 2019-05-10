@@ -191,7 +191,9 @@ def big_shoe_rebounds(player_name)
     data[:players].each do |name, value|
       if name == player_name
         return data[:shoe]
-        
+      end
+    end
+  end
 end
 
 
