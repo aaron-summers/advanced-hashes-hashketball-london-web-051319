@@ -192,6 +192,9 @@ def big_shoe_rebounds
     data[:players].each do |player_name, value|
       if value[:shoe] > max[:shoe]
         max = max || value
+        max = 
+        
+        
       
 end
 
