@@ -187,7 +187,8 @@ def player_stats(name)
 end
 
 def big_shoe_rebounds
-  
+  game_hash.each do |location, data|
+    
 end
 
 
