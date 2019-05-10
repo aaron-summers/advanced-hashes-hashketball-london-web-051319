@@ -193,7 +193,9 @@ def big_shoe_rebounds(player_name)
     data[:players].each do |name|
       if name[:shoe] > shoe_count
         rebound_count = players[:rebounds]
-        
+      end
+    end
+  end
 end
 
 
