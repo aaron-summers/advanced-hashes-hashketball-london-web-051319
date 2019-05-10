@@ -176,6 +176,8 @@ end
 
 def player_stats(name)
   #new_hash = {}
+  shoe_count = 0
+  count_
   
   game_hash.each do |location, data|
     data[:players].each do |player_name, value|
