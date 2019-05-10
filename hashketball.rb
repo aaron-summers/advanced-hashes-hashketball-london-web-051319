@@ -195,6 +195,7 @@ def big_shoe_rebounds
         max = value
       end
     end
+  end
     max[:stats][:rebounds]
 end
 
