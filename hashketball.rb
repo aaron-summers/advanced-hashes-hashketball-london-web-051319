@@ -178,7 +178,8 @@ def player_stats(name)
   new_hash = {}
   
   game_hash.each do |location, data|
-    
+    data[:players].each do |key, value|
+      
 end
 
 
