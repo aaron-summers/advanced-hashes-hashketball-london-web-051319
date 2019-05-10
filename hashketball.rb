@@ -187,7 +187,7 @@ def player_stats(name)
 end
 
 def big_shoe_rebounds(player_name)
-  
+  game_hash.values.each do |
 end
 
 
