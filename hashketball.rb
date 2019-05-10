@@ -176,8 +176,6 @@ end
 
 def player_stats(name)
   #new_hash = {}
-  shoe_count = 0
-  rebound_count = 0
   
   game_hash.each do |location, data|
     data[:players].each do |player_name, value|
@@ -189,9 +187,12 @@ def player_stats(name)
 end
 
 def big_shoe_rebounds(player_name)
+  shoe_count = 0
+  rebound_count = 0
   game_hash.values.each do |data|
     data[:players].each do |name|
-      if name[:shoe] > 
+      if name[:shoe] > shoe_count
+        
 end
 
 
