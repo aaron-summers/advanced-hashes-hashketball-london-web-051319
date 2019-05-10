@@ -181,7 +181,10 @@ def player_stats(name)
     data[:players].each do |player_name, value|
       if player_name == name
         return data
-        
+      else 
+        return nil
+      end
+    end
 end
 
 
