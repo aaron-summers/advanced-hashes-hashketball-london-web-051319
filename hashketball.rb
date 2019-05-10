@@ -185,6 +185,7 @@ def player_stats(name)
         return nil
       end
     end
+  end
 end
 
 
