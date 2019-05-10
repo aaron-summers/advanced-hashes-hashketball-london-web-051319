@@ -195,7 +195,7 @@ def big_shoe_rebounds
         max = value
       end
     end
-    
+    max[:]
 end
 
 
