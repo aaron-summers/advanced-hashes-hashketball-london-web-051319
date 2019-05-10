@@ -192,8 +192,8 @@ def big_shoe_rebounds
   game_hash.values.each do |data|
     data[:players].each do |name|
       if name[:shoe] > shoe_count
-        shoe_count = 
-        rebound_count = players[:rebounds]
+        shoe_count = name[:shoe]
+        rebound_count = name[:rebounds]
       end
     end
   end
