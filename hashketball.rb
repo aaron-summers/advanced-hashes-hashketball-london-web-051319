@@ -177,7 +177,8 @@ end
 def player_stats(name)
   new_hash = {}
   
-  
+  game_hash.each do |location, data|
+    
 end
 
 
